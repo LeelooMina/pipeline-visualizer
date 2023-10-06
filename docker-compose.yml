@@ -1,0 +1,20 @@
+version: "3"
+services:
+  pipeline-api:
+    container_name: pipeline-api
+    build:
+      context: ./pipeline-api
+      dockerfile: Dockerfile
+    environment:
+      - MONGODB_CONNECTION_STRING=mongodb://mongo:27017/pipelines?authSource=admin
+    ports:
+      - "3000:3000"
+    expose:
+      - 3000:3000
+  mongo:
+    image: mongo
+    volumes:
+      - mongo-db:/data/db
+
+volumes:
+  mongo-db:

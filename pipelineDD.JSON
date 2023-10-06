@@ -1,0 +1,572 @@
+[{
+  "_id": {
+    "$oid": "645d7d549118426e7746672b"
+  },
+  "number": 2,
+  "branch_name": "main 2",
+  "uuid": "{b026c94c-abbb-4f65-a958-75341c06060a}",
+  "status": "UNKNOWN",
+  "duration_seconds": 11,
+  "steps": [
+    {
+      "name": "Build Web",
+      "result": "UNKNOWN",
+      "startedOn": "2023-04-30T03:37:28.681135Z",
+      "durationInSeconds": 11,
+      "completed_on": "2023-04-30T03:37:39.191542Z"
+    },
+    {
+      "name": "Build Node Lambdas",
+      "result": "NOT_RUN",
+      "startedOn": "2023-04-30T03:37:30.047116Z",
+      "durationInSeconds": 11,
+      "completed_on": "2023-04-30T03:37:41.169718Z"
+    },
+    {
+      "name": "Test Node Lambdas",
+      "result": "NOT_RUN",
+      "startedOn": "2023-04-30T03:37:29.167049Z",
+      "durationInSeconds": 10,
+      "completed_on": "2023-04-30T03:37:39.654243Z"
+    },
+    {
+      "name": "CI Deploy",
+      "result": "NOT_RUN",
+      "startedOn": "2023-04-30T03:37:39.341759Z",
+      "durationInSeconds": 0,
+      "completed_on": ""
+    },
+    {
+      "name": "Test Data Extraction CI",
+      "result": "NOT_RUN",
+      "startedOn": "",
+      "durationInSeconds": 0,
+      "completed_on": ""
+    },
+    {
+      "name": "QA Deploy",
+      "result": "NOT_RUN",
+      "startedOn": "",
+      "durationInSeconds": 0,
+      "completed_on": ""
+    },
+    {
+      "name": "Demo Deploy",
+      "result": "NOT_RUN",
+      "startedOn": "",
+      "durationInSeconds": 0,
+      "completed_on": ""
+    }
+  ],
+  "created_on": "2023-04-30T03:37:17.658619Z",
+  "completed_on": ""
+},{
+  "_id": {
+    "$oid": "645d7d549118426e7746672c"
+  },
+  "number": 1,
+  "branch_name": "main",
+  "uuid": "{aa229b4a-cfad-40e7-8c4b-e015baa93781}",
+  "status": "UNKNOWN",
+  "duration_seconds": 12,
+  "steps": [
+    {
+      "name": "Build Web",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-04-30T03:07:28.261703Z",
+      "durationInSeconds": 12,
+      "completed_on": "2023-04-30T03:07:40.067841Z"
+    },
+    {
+      "name": "Build Node Lambdas",
+      "result": "UNKNOWN",
+      "startedOn": "2023-04-30T03:07:29.675754Z",
+      "durationInSeconds": 11,
+      "completed_on": "2023-04-30T03:07:40.703016Z"
+    },
+    {
+      "name": "Test Node Lambdas",
+      "result": "NOT_RUN",
+      "startedOn": "2023-04-30T03:07:29.790616Z",
+      "durationInSeconds": 10,
+      "completed_on": "2023-04-30T03:07:40.072592Z"
+    },
+    {
+      "name": "CI Deploy",
+      "result": "NOT_RUN",
+      "startedOn": "2023-04-30T03:07:40.213219Z",
+      "durationInSeconds": 0,
+      "completed_on": ""
+    },
+    {
+      "name": "Test Data Extraction CI",
+      "result": "NOT_RUN",
+      "startedOn": "",
+      "durationInSeconds": 0,
+      "completed_on": ""
+    },
+    {
+      "name": "QA Deploy",
+      "result": "NOT_RUN",
+      "startedOn": "",
+      "durationInSeconds": 0,
+      "completed_on": ""
+    }
+  ],
+  "created_on": "2023-04-30T03:07:16.227866Z",
+  "completed_on": ""
+},{
+  "_id": {
+    "$oid": "645d7d549118426e7746672d"
+  },
+  "number": 6,
+  "branch_name": "test-branch",
+  "uuid": "{1b12ba88-53e3-4795-a77e-40808a391fab}",
+  "duration_seconds": 11,
+  "steps": [
+    {
+      "name": "Build Web",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-01T23:15:10.204169Z",
+      "durationInSeconds": 8,
+      "completed_on": "2023-05-01T23:15:17.709256Z"
+    },
+    {
+      "name": "Build Node Lambdas",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-01T23:15:11.519663Z",
+      "durationInSeconds": 11,
+      "completed_on": "2023-05-01T23:15:22.112411Z"
+    },
+    {
+      "name": "Test Node Lambdas",
+      "result": "UNKNOWN",
+      "startedOn": "2023-05-01T23:15:10.797122Z",
+      "durationInSeconds": 10,
+      "completed_on": "2023-05-01T23:15:21.199263Z"
+    },
+    {
+      "name": "Dev Deploy",
+      "result": "NOT_RUN"
+    },
+    {
+      "name": "Test Data Extraction Dev",
+      "result": "NOT_RUN"
+    },
+    {
+      "name": "Dev2 Deploy",
+      "result": "NOT_RUN"
+    }
+  ],
+  "created_on": "2023-05-01T23:14:58.759288Z",
+  "status": "UNKNOWN"
+},{
+  "_id": {
+    "$oid": "645d7d549118426e7746672e"
+  },
+  "number": 10,
+  "branch_name": "main3",
+  "uuid": "{3a9b9f30-bf3f-463c-bbd2-7a6c986dfd57}",
+  "duration_seconds": 36,
+  "steps": [
+    {
+      "name": "Build Web",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-10T20:47:56.779626Z",
+      "durationInSeconds": 5,
+      "completed_on": "2023-05-10T20:48:02.052881Z"
+    },
+    {
+      "name": "Build Node Lambdas",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-10T20:47:56.91493Z",
+      "durationInSeconds": 6,
+      "completed_on": "2023-05-10T20:48:03.384224Z"
+    },
+    {
+      "name": "Test Node Lambdas",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-10T20:47:56.825085Z",
+      "durationInSeconds": 9,
+      "completed_on": "2023-05-10T20:48:06.173608Z"
+    },
+    {
+      "name": "CI Deploy",
+      "result": "UNKNOWN",
+      "startedOn": "2023-05-10T20:48:17.651281Z",
+      "durationInSeconds": 7,
+      "completed_on": "2023-05-10T20:48:24.610156Z"
+    },
+    {
+      "name": "Test Data Extraction CI",
+      "result": "NOT_RUN",
+      "startedOn": "2023-05-10T20:48:35.825971Z",
+      "durationInSeconds": 20,
+      "completed_on": "2023-05-10T20:48:55.890507Z"
+    },
+    {
+      "name": "QA Deploy",
+      "result": "NOT_RUN",
+      "startedOn": "2023-05-10T20:49:35.825971Z"
+    }
+  ],
+  "created_on": "2023-05-10T20:47:45.420936Z",
+  "status": "UNKNOWN"
+},{
+  "_id": {
+    "$oid": "645d7d549118426e7746672f"
+  },
+  "number": 8,
+  "branch_name": "main4",
+  "uuid": "{aec40517-8a3f-48a1-b3d2-0bc177d338bc}",
+  "status": "UNKNOWN",
+  "duration_seconds": 49,
+  "steps": [
+    {
+      "name": "Build Web",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-05T22:34:37.410766Z",
+      "durationInSeconds": 6,
+      "completed_on": "2023-05-05T22:34:43.44159Z"
+    },
+    {
+      "name": "Build Node Lambdas",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-05T22:34:38.394187Z",
+      "durationInSeconds": 6,
+      "completed_on": "2023-05-05T22:34:44.295663Z"
+    },
+    {
+      "name": "Test Node Lambdas",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-05T22:34:38.689149Z",
+      "durationInSeconds": 10,
+      "completed_on": "2023-05-05T22:34:48.589287Z"
+    },
+    {
+      "name": "CI Deploy",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-05T22:34:59.592027Z",
+      "durationInSeconds": 8,
+      "completed_on": "2023-05-05T22:35:07.68361Z"
+    },
+    {
+      "name": "Test Data Extraction CI",
+      "result": "UNKNOWN",
+      "startedOn": "2023-05-05T22:35:20.118251Z",
+      "durationInSeconds": 20,
+      "completed_on": "2023-05-05T22:35:40.072615Z"
+    },
+    {
+      "name": "QA Deploy",
+      "result": "NOT_RUN",
+      "startedOn": "2023-05-06T00:38:35.912521Z",
+      "durationInSeconds": 6,
+      "completed_on": "2023-05-06T00:38:42.132674Z"
+    },
+    {
+      "name": "Demo Deploy",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-06T00:52:19.548038Z",
+      "durationInSeconds": 4,
+      "completed_on": "2023-05-06T00:52:23.903725Z"
+    }
+  ],
+  "created_on": "2023-05-05T22:34:26.604641Z",
+  "completed_on": "2023-05-06T00:52:24.049432Z"
+},{
+  "_id": {
+    "$oid": "645d7d549118426e77466730"
+  },
+  "number": 4,
+  "branch_name": "main_5",
+  "uuid": "{e22698e1-8dae-41c9-b7fa-59375d12d7fe}",
+  "duration_seconds": 47,
+  "steps": [
+    {
+      "name": "Build Web",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-01T22:59:25.074575Z",
+      "durationInSeconds": 5,
+      "completed_on": "2023-05-01T22:59:30.479425Z"
+    },
+    {
+      "name": "Build Node Lambdas",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-01T22:59:26.231667Z",
+      "durationInSeconds": 4,
+      "completed_on": "2023-05-01T22:59:30.549611Z"
+    },
+    {
+      "name": "Test Node Lambdas",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-01T22:59:26.219768Z",
+      "durationInSeconds": 10,
+      "completed_on": "2023-05-01T22:59:35.853672Z"
+    },
+    {
+      "name": "CI Deploy",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-01T22:59:47.356291Z",
+      "durationInSeconds": 7,
+      "completed_on": "2023-05-01T22:59:53.929115Z"
+    },
+    {
+      "name": "Test Data Extraction CI",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-01T23:00:05.120861Z",
+      "durationInSeconds": 30,
+      "completed_on": "2023-05-01T23:00:35.443703Z"
+    },
+    {
+      "name": "QA Deploy",
+      "result": "UNKNOWN"
+    },
+    {
+      "name": "Demo Deploy",
+      "result": "Unknown Result"
+    }
+  ],
+  "created_on": "2023-05-01T22:59:08.399876Z",
+  "status": "UNKNOWN"
+},{
+  "_id": {
+    "$oid": "645d7d549118426e77466731"
+  },
+  "number": 9,
+  "branch_name": "main_6",
+  "uuid": "{33e76aa5-fbfe-46e9-b37f-007239c27cd6}",
+  "duration_seconds": 46,
+  "steps": [
+    {
+      "name": "Build Web",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-06T01:08:06.164814Z",
+      "durationInSeconds": 7,
+      "completed_on": "2023-05-06T01:08:13.117769Z"
+    },
+    {
+      "name": "Build Node Lambdas",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-06T01:08:06.114153Z",
+      "durationInSeconds": 7,
+      "completed_on": "2023-05-06T01:08:13.147708Z"
+    },
+    {
+      "name": "Test Node Lambdas",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-06T01:08:05.964013Z",
+      "durationInSeconds": 12,
+      "completed_on": "2023-05-06T01:08:18.348739Z"
+    },
+    {
+      "name": "CI Deploy",
+      "result": "FAILED",
+      "startedOn": "2023-05-06T01:08:29.42664Z",
+      "durationInSeconds": 8,
+      "completed_on": "2023-05-06T01:08:37.605166Z"
+    },
+    {
+      "name": "Test Data Extraction CI",
+      "result": "NOT_RUN",
+      "startedOn": "2023-05-06T01:08:48.516904Z",
+      "durationInSeconds": 19,
+      "completed_on": "2023-05-06T01:09:07.938799Z"
+    },
+    {
+      "name": "QA Deploy",
+      "result": "NOT_RUN",
+      "startedOn": "2023-05-06T02:11:18.836322Z",
+      "durationInSeconds": 6,
+      "completed_on": "2023-05-06T02:11:24.999716Z"
+    },
+    {
+      "name": "Demo Deploy",
+      "result": "NOT_RUN"
+    }
+  ],
+  "created_on": "2023-05-06T01:07:54.68169Z",
+  "status": "FAILED"
+},{
+  "_id": {
+    "$oid": "645d7d549118426e77466732"
+  },
+  "number": 5,
+  "branch_name": "main_7",
+  "uuid": "{ba99d806-848f-42f8-97cb-6eda1363716d}",
+  "status": "SUCCESSFUL",
+  "duration_seconds": 75,
+  "steps": [
+    {
+      "name": "Build Web",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-01T23:08:13.989409Z",
+      "durationInSeconds": 8,
+      "completed_on": "2023-05-01T23:08:21.813204Z"
+    },
+    {
+      "name": "Build Node Lambdas",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-01T23:08:15.135465Z",
+      "durationInSeconds": 10,
+      "completed_on": "2023-05-01T23:08:24.915825Z"
+    },
+    {
+      "name": "Test Node Lambdas",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-01T23:08:13.744978Z",
+      "durationInSeconds": 10,
+      "completed_on": "2023-05-01T23:08:24.189126Z"
+    },
+    {
+      "name": "CI Deploy",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-01T23:08:38.359059Z",
+      "durationInSeconds": 7,
+      "completed_on": "2023-05-01T23:08:45.83408Z"
+    },
+    {
+      "name": "Test Data Extraction CI",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-01T23:08:57.189144Z",
+      "durationInSeconds": 21,
+      "completed_on": "2023-05-01T23:09:17.70114Z"
+    },
+    {
+      "name": "QA Deploy",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-02T19:12:56.55047Z",
+      "durationInSeconds": 31,
+      "completed_on": "2023-05-02T19:13:27.409154Z"
+    },
+    {
+      "name": "Demo Deploy",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-02T19:14:07.965983Z",
+      "durationInSeconds": 6,
+      "completed_on": "2023-05-02T19:14:13.488842Z"
+    }
+  ],
+  "created_on": "2023-05-01T23:07:59.678322Z",
+  "completed_on": "2023-05-02T19:14:13.64567Z"
+},{
+  "_id": {
+    "$oid": "645d7d549118426e77466733"
+  },
+  "number": 7,
+  "branch_name": "main_8",
+  "uuid": "{543cafcc-6eba-44cc-933b-cfe739bea396}",
+  "duration_seconds": 43,
+  "steps": [
+    {
+      "name": "Build Web",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-02T19:14:31.001804Z",
+      "durationInSeconds": 6,
+      "completed_on": "2023-05-02T19:14:36.569508Z"
+    },
+    {
+      "name": "Build Node Lambdas",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-02T19:14:31.171699Z",
+      "durationInSeconds": 5,
+      "completed_on": "2023-05-02T19:14:35.923967Z"
+    },
+    {
+      "name": "Test Node Lambdas",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-02T19:14:31.044252Z",
+      "durationInSeconds": 9,
+      "completed_on": "2023-05-02T19:14:40.041418Z"
+    },
+    {
+      "name": "CI Deploy",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-02T19:14:51.312447Z",
+      "durationInSeconds": 7,
+      "completed_on": "2023-05-02T19:14:58.193247Z"
+    },
+    {
+      "name": "Test Data Extraction CI",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-02T19:15:09.811081Z",
+      "durationInSeconds": 22,
+      "completed_on": "2023-05-02T19:15:31.984086Z"
+    },
+    {
+      "name": "QA Deploy",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-05-02T19:17:24.198696Z",
+      "durationInSeconds": 5,
+      "completed_on": "2023-05-02T19:17:29.020842Z"
+    },
+    {
+      "name": "Demo Deploy",
+      "result": "Unknown Result"
+    }
+  ],
+  "created_on": "2023-05-02T19:14:18.819898Z",
+  "status": "SUCCESSFUL"
+},{
+  "_id": {
+    "$oid": "645d7d549118426e77466734"
+  },
+  "number": 3,
+  "branch_name": "main_9",
+  "uuid": "{c70c38ab-7820-4672-8dc6-efad560c5ec1}",
+  "status": "STOPPED",
+  "duration_seconds": 39,
+  "steps": [
+    {
+      "name": "Build Web",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-04-30T03:38:52.67803Z",
+      "durationInSeconds": 6,
+      "completed_on": "2023-04-30T03:38:58.729643Z"
+    },
+    {
+      "name": "Build Node Lambdas",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-04-30T03:38:52.5628Z",
+      "durationInSeconds": 6,
+      "completed_on": "2023-04-30T03:38:58.707665Z"
+    },
+    {
+      "name": "Test Node Lambdas",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-04-30T03:38:52.971926Z",
+      "durationInSeconds": 11,
+      "completed_on": "2023-04-30T03:39:03.979183Z"
+    },
+    {
+      "name": "CI Deploy",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-04-30T03:39:15.05689Z",
+      "durationInSeconds": 8,
+      "completed_on": "2023-04-30T03:39:22.778622Z"
+    },
+    {
+      "name": "Test Data Extraction CI",
+      "result": "SUCCESSFUL",
+      "startedOn": "2023-04-30T03:39:34.200023Z",
+      "durationInSeconds": 20,
+      "completed_on": "2023-04-30T03:39:54.078078Z"
+    },
+    {
+      "name": "QA Deploy",
+      "result": "STOPPED",
+      "startedOn": "2023-05-01T22:57:53.985374Z",
+      "durationInSeconds": 0,
+      "completed_on": "2023-05-01T22:57:53.985374Z"
+    },
+    {
+      "name": "Demo Deploy",
+      "result": "NOT_RUN",
+      "startedOn": "2023-05-01T22:57:54.121038Z",
+      "durationInSeconds": 0,
+      "completed_on": "2023-05-01T22:57:54.121038Z"
+    }
+  ],
+  "created_on": "2023-04-30T03:38:41.543252Z",
+  "completed_on": "2023-05-01T22:57:54.162938Z"
+}]
